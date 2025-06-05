@@ -10,7 +10,7 @@ In this lab, we will deploy Microsoft Sentinel—a cloud-native SIEM solution—
 
 We will enhance Sentinel's capabilities by using a custom PowerShell script to perform geolocation lookups on the source IP addresses of these attacks. The resulting data will be visualized using Sentinel’s built-in world map, enabling us to track the geographic distribution and frequency of incoming threats.
 
-This lab leverages the 30-day free trial of Microsoft Sentinel, making it an accessible and practical option for learning real-world SIEM implementation and threat monitoring techniques. In his lab I will be following a tutorial by <a href="https://www.youtube.com/@JoshMadakor">Josh Madakor</a>
+This lab leverages the 30-day free trial of Microsoft Sentinel, making it an accessible and practical option for learning real-world SIEM implementation and threat monitoring techniques. In his lab we will be following a tutorial by <a href="https://www.youtube.com/@JoshMadakor">Josh Madakor</a>
 
 
 

@@ -10,11 +10,13 @@ A SIEM (Security Information and Event Management) system is a security solution
 
 A honeypot is a deliberately vulnerable system designed to attract and study malicious activity within a safe, controlled environment. It serves as a valuable tool for analyzing attacker behavior, identifying new threat vectors, and enhancing cybersecurity strategies.
 
-This project leverages the 30-day free trial of Microsoft Sentinel, making it an accessible and practical option for learning real-world SIEM implementation and threat monitoring techniques. In this project we will be following a tutorial by <a href="https://www.youtube.com/@JoshMadakor">Josh Madakor</a>
 
 
 
 <h2>Project Overview</h2>
+
+This setup leverages the 30-day free trial offered by Microsoft Sentinel, making it an accessible and cost-effective platform for hands-on cybersecurity training and real-time threat analysis. In this project we will be following a tutorial by <a href="https://www.youtube.com/@JoshMadakor">Josh Madakor</a>
+
 <b>This demo showcases the use of Azure Sentinel (SIEM) integrated with a live Windows VM honeypot to monitor and analyze real-time RDP brute-force attacks from around the globe.
 
 

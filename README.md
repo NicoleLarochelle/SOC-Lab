@@ -42,8 +42,11 @@ This project provides hands-on experience with threat detection, log analysis, a
 
 <p align="center">
   <img src="https://github.com/Jabner98/Sentinel-Lab/assets/112572239/9e8f470c-d18c-4ff3-ad80-dc75a56ea83e"
-<!-- <img src="https://i.imgur.com/3d3CEwZ.png" height="85%" width="85%" alt="RDP event fail logs to iP Geographic information"/> --> 
+<!-- <img src="https://i.imgur.com/3d3CEwZ.png" height="85%" width="85%" alt="RDP event fail logs to iP Geographic information"/>  
 </p>
+
+The PowerShell script in this repository parses Windows Event Logs for failed RDP login attempts and queries a third-party API to retrieve geolocation data for the source IP addresses.
+
 <details>
  <summary><h3> 📜 PowerShell Script </h3></summary> 
  

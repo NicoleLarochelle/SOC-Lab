@@ -4,18 +4,33 @@
 
 ## Introduction
 
-Lab Objective: Deploying Azure Sentinel with a Honeypot for Threat Visualization
+Deploying Azure Sentinel with a Honeypot for Threat Visualization
 
-In this lab, we will deploy Microsoft Sentinel—a cloud-native SIEM solution—and connect it to a live virtual machine (VM) configured as a honeypot. The VM will be exposed to the internet to attract and log real-time cyberattacks, primarily RDP brute-force attempts from global threat actors.
+A SIEM (Security Information and Event Management) system is a security solution that enables organizations to detect, analyze, and respond to potential threats before they impact business operations. It works by collecting and correlating event log data from various sources across a network, such as firewalls, intrusion detection/prevention systems (IDS/IPS), and identity management tools. This centralized visibility allows security professionals to monitor, prioritize, and remediate threats in real time.
 
-We will enhance Sentinel's capabilities by using a custom PowerShell script to perform geolocation lookups on the source IP addresses of these attacks. The resulting data will be visualized using Sentinel’s built-in world map, enabling us to track the geographic distribution and frequency of incoming threats.
+A honeypot is a deliberately vulnerable system designed to attract and study malicious activity within a safe, controlled environment. It serves as a valuable tool for analyzing attacker behavior, identifying new threat vectors, and enhancing cybersecurity strategies.
 
-This lab leverages the 30-day free trial of Microsoft Sentinel, making it an accessible and practical option for learning real-world SIEM implementation and threat monitoring techniques. In this lab we will be following a tutorial by <a href="https://www.youtube.com/@JoshMadakor">Josh Madakor</a>
+This project leverages the 30-day free trial of Microsoft Sentinel, making it an accessible and practical option for learning real-world SIEM implementation and threat monitoring techniques. In this project we will be following a tutorial by <a href="https://www.youtube.com/@JoshMadakor">Josh Madakor</a>
 
 
 
-<h2>Description</h2>
-<b>The PowerShell script in this repository parses Windows Event Logs for failed RDP login attempts and queries a third-party API to retrieve geolocation data for the source IP addresses.
+<h2>Project Overview</h2>
+<b>This demo showcases the use of Azure Sentinel (SIEM) integrated with a live Windows VM honeypot to monitor and analyze real-time RDP brute-force attacks from around the globe.
+
+
+🛠 What It Does
+
+Parses Windows Event Logs for failed RDP login attempts
+
+Uses a PowerShell script to extract attacker IP addresses
+
+Queries a third-party API to retrieve geolocation data
+
+Plots attack sources on an Azure Sentinel map dashboard
+
+🌐 Why It Matters
+
+This project provides hands-on experience with threat detection, log analysis, and real-time SIEM data visualization using cloud-native tools.
 </b>
 <br />
 <br />

@@ -354,7 +354,7 @@ Visualizing as a Map:
 ![Visualizing as a Map](https://github.com/Jabner98/Sentinel-Lab/assets/112572239/bc2eb10e-8ebb-42c1-a06c-a2483f0d1849)
 </details>
 
-<h2>Several attacks from Ukraine and other countries coming in!; Custom logs being output with geodata</h2>
+<h2>Several attacks from Ukraine and other countries; Custom logs being output with geodata</h2>
 
 <p align="center">
 
